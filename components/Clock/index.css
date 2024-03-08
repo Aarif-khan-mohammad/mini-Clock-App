@@ -1,0 +1,21 @@
+.clock-container{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  border:2px solid #A1AF43;
+  height:50%;
+  width:45%;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px ;
+  border-radius: 50%;
+}
+
+.heading{
+  font-family:"Bree Serif";
+  color: #3D81BB;
+}
+
+.time{
+  color: #A441AB;
+  font-family:"Bree Serif";
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app-container{
+  background-image: linear-gradient(to left top, #eec7b9, #f0c2c9, #e3c3dd, #c8c7ea, #aacdeb);
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  gap:3rem;
+}
+
+.toggle-button{
+  height:2rem;
+  width:6rem;
+  background-color:transparent;
+  border:1px solid #DB6CE3;
+  border-radius:10px;
+  color:#3D81BB;
+  font-weight:bold;
+  font-family:"Bree Serif";
+}
